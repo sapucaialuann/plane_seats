@@ -46,7 +46,7 @@ const solution = (N, S) => {
                             }
                     } else {
                         countAvailableSeatsInRow = 0;
-                        console.log('streak zerada: ', countAvailableSeatsInRow);
+                        console.log('streak set to 0: ', countAvailableSeatsInRow);
                     }
                 }
                 countAvailableSeatsInRow = 0;
