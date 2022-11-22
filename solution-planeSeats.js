@@ -53,6 +53,7 @@ const solution = (N, S) => {
             countPossibleSeatCombinations += 2;
         }
     }
+    console.log('Answer: ', countPossibleSeatCombinations);
     return countPossibleSeatCombinations;
 }
 solution(22,'1A 3C 2B 20G 5A')
